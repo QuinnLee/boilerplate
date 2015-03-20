@@ -1,0 +1,32 @@
+{
+  "name": "es6-gulp",
+  "version": "0.0.1",
+  "description": "Sandbox for es6 to 5 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "del": "latest",
+    "gulp": "^3.8.11",
+    "gulp-babel": "latest",
+    "gulp-concat": "latest",
+    "gulp-filter": "latest",
+    "gulp-include": "latest",
+    "gulp-jade": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-ruby-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "vinyl-source-stream": "latest"
+  }
+}
