@@ -34,9 +34,10 @@ gulp.task('js', function() {
   .pipe(plumber({ handleError: function (err) {
     console.log(err);
     this.emit('end');
-  }}))
+   }}))
   .pipe(source('main.js'))
-  .pipe(gulp.dest('build/js'));
+  .pipe(gulp.dest('build/js'))
+  .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('templates', function() {
